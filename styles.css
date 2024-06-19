@@ -16,7 +16,7 @@ h1, p {
   text-align: center;
 }
 form{
-  margin: 1em auto;
+  margin: 50px 400px 50px 400px;
   padding: 2px;
 }
 input[type="submit"] {
