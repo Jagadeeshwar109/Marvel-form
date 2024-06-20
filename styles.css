@@ -12,17 +12,24 @@ body {
   backdrop-filter: blur(10px);
 }
 h1, p {
-  margin: 1em auto;
+  margin: 1px auto;
+  padding: 10px;
   text-align: center;
 }
 form{
-  margin: 50px 400px 50px 400px;
-  padding: 2px;
+  margin: 40px 300px 0 550px;
+  padding: 1px;
+  align-items: center;
 }
 input[type="submit"] {
-  margin: 0 400px 0 50px;
-  width: 50%;
+  margin: auto;
+  width: 40%;
+  margin-left: 50px;
 }
 input[type="text"] {
-  width: 70%;
+  width: 60%;
+}
+.main{
+  padding: 20px;
+  border-radius: 10px;
 }
