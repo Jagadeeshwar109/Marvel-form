@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta  charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"></link>
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 <head>
     <title>Registration form Marvel</title>
 </head>
 <body>
-    <div class="main">
-    <div class=""register>
+    <!-- <div class="main">
+    <div class="register">
         <h1>Marvel  Registration form</h1>
         <p>Fill the form like you are one of Marvel hero</p>
         <form id="register" method="post">
@@ -31,5 +31,46 @@
             <input type="submit" value="Submit" />
         </form>
     </div>
+    </div> -->
+    <div class="main">
+        <h1>Marvel Registration Form</h1>
+        <p>Fill the form like you are one of Marvel hero</p>
+        <form action="" class="form">
+            <div class="form-item">
+                <label for="name">Super Hero Name</label>
+                <input type="text" placeholder="Super hero name">
+            </div>
+            <div class="form-item">
+                <label for="oname">Your Original Name</label>
+                <input type="text" placeholder="Not Super hero name">
+            </div>
+            <div class="form-item">
+                <label for="oname">Your City Name</label>
+                <input type="text" placeholder="Super hero city">
+            </div>
+            <div class="form-item">
+                <label for="oname">Your Gender</label>
+                <select name="gender" id="gen" class="input">
+                    <option value="default">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Prefer Not to Say</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="oname">Your Identity</label>
+                <select name="identity" id="ident" class="input">
+                    <option value="default">Select</option>
+                    <option value="male">Everyone knows me</option>
+                    <option value="female">No one knows</option>
+                    <option value="others">I don't care</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="oname">Your City Name</label>
+                <textarea name="text" id="bio" placeholder="Detail yourself"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </div>
 </body>
